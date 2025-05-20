@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px; /* Limit width for better readability on large screens */
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-header h1 {
+    color: #007bff; /* Bootstrap primary blue */
+    margin-bottom: 0.5rem;
+}
+
+.main-header .lead {
+    color: #555;
+    font-size: 1.25rem;
+}
+
+.introduction p {
+    font-size: 1.1rem;
+}
+
+.contact-info h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    color: #0056b3; /* Darker blue for links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.site-footer {
+    font-size: 0.9rem;
+    color: #777;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
